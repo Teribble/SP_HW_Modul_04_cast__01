@@ -12,6 +12,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+///ПЯТОЕ ЗАДАНИЕ ОБЪЕДЕНИЛ С ЧЕТВЕРТЫМ
+///ТУТ СРАЗУ ОТЧЕТ ВЫВОДИТ КОЛ-ВО ЦИФР И КОЛ-ВО БАЙТ
+///ВЫВОДИТЬ НА ЭКРАН ЧИСЛА НЕ ВИЖУ СМЫСЛА, ВРЕМЯ ПОТРАЧУ
+/// МОЖНО СДЕЛАТЬ КАК ЧЕРЕЗ ViewListBox, ListBox или вообще сделать в MwssageBox))))
+
 namespace Task4
 {
     public partial class Form1 : Form
@@ -100,7 +105,7 @@ namespace Task4
 
             listBox1.Invoke(new Action(() =>
             {
-                listBox1.Items.Add("Числа добавлены в файл");
+                listBox1.Items.Add($"Числа добавлены в файл, размер файла {new FileInfo(path + "\\" + fileName).Length} байт");
             }));
 
             button2.Invoke(new Action(() =>
@@ -181,7 +186,7 @@ namespace Task4
 
             listBox1.Invoke(new Action(() =>
             {
-                listBox1.Items.Add($"Анализ выполнен, найдено {num.Count()} простых чисел");
+                listBox1.Items.Add($"Анализ выполнен, найдено {num.Count()} простых чисел, размер файла {new FileInfo(path + "\\" + newName).Length} байт");
             }));
 
             button3.Invoke(new Action(() =>
@@ -245,7 +250,7 @@ namespace Task4
 
             listBox1.Invoke(new Action(() =>
             {
-                listBox1.Items.Add($"Анализ выполнен, найдено {count} чисел, последняя цифра которых 7");
+                listBox1.Items.Add($"Анализ выполнен, найдено {count} чисел, последняя цифра которых 7, размер файла {new FileInfo(path + "\\" + newName).Length} байт");
             }));
 
             button4.Invoke(new Action(() =>

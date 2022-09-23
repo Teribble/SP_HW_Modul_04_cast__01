@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 1 and 2", "SP_HW_Modul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Module_04_Task_3\Task 3.csproj", "{F88C49F6-0087-4388-9D0F-1C98FB9AA549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{A6D88571-2A19-4227-8966-EA7FB039956B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4 and Task5", "Task4\Task4 and Task5.csproj", "{A6D88571-2A19-4227-8966-EA7FB039956B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
